@@ -1,0 +1,42 @@
+.main-page {
+    position: relative;
+    margin: 40px auto 0 auto;
+    padding: 80px 30px 0 30px;
+    box-sizing: border-box;
+    width: 866px;
+    height: auto;
+    min-height: 460px;
+    align-items: center;
+    justify-content: start;
+    border: 1px solid #707070;
+
+}
+
+.main-page__name {
+    position: absolute;
+    margin: 0;
+    font-size: 22px;
+    color: #707070;
+}
+
+.main-page__pic {
+    width: 400px;
+}
+
+.main-page__button {
+    margin: 32px 0;
+    width: 136px;
+    height: 36px;
+    border-radius: 2px;
+    background-color: #006896;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.24);
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    color: #FFFFFF;
+}
+
+.main-page__button:hover {
+    cursor: pointer;
+    background-color: #009dda;
+}
