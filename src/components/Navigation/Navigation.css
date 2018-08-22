@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    width: 866px;
+    height: 64px;
+    align-items: center;
+    justify-content: start;
+    margin: 0 auto;
+    border: 1px solid #707070;
+    box-sizing: border-box;
+
+}
+
+.nav__item {
+    font-size: 22px;
+    color: #707070;
+    padding: 0 0 0 30px;
+    font-family: HelveticaNeueCyr, sans-serif;
+    text-decoration: none;
+}
+
+.nav__item_active {
+    color: #000000;
+}
+
+
